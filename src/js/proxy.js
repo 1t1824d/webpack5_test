@@ -28,6 +28,13 @@
                 //return delete target[key]
                 return Reflect.deleteProperty(target,key)
             }
+        },
+        has(target,key){
+            if(key=="info"){
+                return false
+            }else{
+                return true
+            }
         }
     })
     console.log(`Reflect.get(thing,"name")`, Reflect.get(thing,"name"));
@@ -47,4 +54,8 @@
     //Reflect.deleteProperty(thing,"time") true
     console.log(`Reflect.deleteProperty(thing,"info")`, Reflect.deleteProperty(thing,"info"));
     //Reflect.deleteProperty(thing,"info") false
+    console.log(`Reflect.has(thing,"info")`, Reflect.has(thing,"info"));
+    //Reflect.has(thing,"info") false
+    console.log(`Reflect.has(thing,"color")`, Reflect.has(thing,"color"));
+    //Reflect.has(thing,"color") true
 }
