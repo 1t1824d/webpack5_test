@@ -119,6 +119,7 @@ webpack
       --js
         --01.js
         --02.js
+        --proxy.js
       --index.html
       --index.js
    --package-lock.json
