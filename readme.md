@@ -95,7 +95,8 @@ module.exports={
     },
     devServer:{
         open:true,
-        hot:true
+        hot:true,
+        watchFiles:['./src/index.html']
     }
 }
 ```
