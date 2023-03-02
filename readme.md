@@ -99,3 +99,30 @@ module.exports={
     }
 }
 ```
+## 7.运行webpack
+
+```
+webpack
+```
+
+项目目录：
+
+ ```
+ webpack5_test
+   --node_modules
+   --public
+     --js
+        --index.aa07bef6.bundle.js
+     --index.html
+   --src
+      --js
+        --01.js
+        --02.js
+      --index.html
+      --index.js
+   --package-lock.json
+   --package.json
+   --readme.md
+   --webpack.config.js
+
+  ```
