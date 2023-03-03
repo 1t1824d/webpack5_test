@@ -1,3 +1,5 @@
 import './js/01'
 import './js/02'
 import './js/proxy'
+import './js/promise1'
+import './js/promise2'
